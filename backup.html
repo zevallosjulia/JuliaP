@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JuliaP</title>
+   <link rel="stylesheet" href="CSS/style.css">
+   <script src="https://kit.fontawesome.com/2fdb93ad2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+     <div class="container">
+        <nav>
+           <img src="/resources/logo1.png" class="logo">
+           <ul>
+              <li><a href= "#">Home</a></li>
+              <li><a href= "#">About</a></li>
+              <li><a href= "#">Services</a></li>
+              <li><a href= "#">Contact</a></li>
+           </ul>
+        </nav>
+        <div class="header-text">
+           <p>UI/UX Designer</p>
+           <h1>HI, I'm <span>Julia</span><br>from US</h1>
+        </div>
+     </div>
+   </div>
+   <!------------------------about---------------------->
+   <div id="about">
+     <div class="container">
+        <div class="row">
+           <div class= "about-col-1">
+              <img src="/resources/Image-1 (2).png">
+           </div>
+           <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Lorem ipsum dolor sit amet </p>
+
+              <div class="tab-titles">
+                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">  
+                 <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                 </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                 <ul>
+                    <li><span>UI/UX</span><br>Designing Travel Websites in English and Spanish</li>
+                    <li><span>Web Development</span><br> Charitable institution website again in both languages</li>
+                    <li><span>App Development</span><br>Managing and updating websites</li>
+                 </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                 <ul>
+                    <li><span>2022</span><br> Certified Java Script Developer trained at Generation USA </li>
+                    <li><span>Previous work in Health care for a number of years </span><br></li>
+                    <li><span>Health Science at St Louis University</span><br></li>  
+                 </ul>
+              </div>
+           </div>
+        </div>
+     </div>
+   </div>
+   <!---------------------services--------------->
+
+   <div id="services">
+     <div class= "container">
+          <h1 class= "sub-title">My Services</h1>
+          <div class="services-list">
+           <div>
+           
+              <i class="fa-solid fa-star"></i>
+              <h2>IE/UX Design</h2>
+              <p> Lorem ipsum dolor</p>
+              <a href="#">Learn more</a>
+           </div>
+           <div>
+              <i class="fa-brands fa-slack"></i>
+              <h2>App Design</h2>
+              <p> Lorem ipsum dolor</p>
+              <a href="#">Learn more</a>
+           </div>
+           <div>
+
+              <i class="fa-regular fa-face-smile"></i>
+              <h2>Web Design</h2>
+              <p> Lorem ipsum dolor</p>
+              <a href="#">Learn more</a>
+           </div>
+          </div>
+     </div>
+   </div>
+   <!--------------------porfolio----------------->
+   <div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+           <div class="work">
+              <img src= "/resources/7f447294-e865-4be9-94af-b09449b8a6b5 (2).JPG">
+                 <div class="layer">
+                    <h3>Mount Sinai</h3>
+                    <p>The website describes a trip to an unusual and beautiful place</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+          </div>
+          <div class="work">
+           <img src="/resources/P1130718_stitch (1).jpg">
+           <div class="layer">
+              <h3>Europe</h3>
+              <p>The website describes a trip to a place in Europe</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+       </div>
+       <div class="work">
+        <img src="/resources/to do.PNG">
+        <div class="layer">
+           <h3>List to do</h3>
+           <p>The app presents a useful tool.</p>
+           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+     </div>
+   </div>
+   <!-----------------contact---------------->
+   <div id="contact">
+     <div class="container">
+        <div class="row">
+           <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+              <p><i class="fa-sharp fa-solid fa-square-phone"></i>111-222-9053</p>
+              <div class="social-icons">
+                 <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                 <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <a href="resources/logo1.png" class="btn btn2" download> Download CV</a>
+           </div>
+           <div class="contact-right"></div>
+           <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div> 
+     </div>
+  </div>
+     <div class="copywright">
+        <p>Copyright Julia <i class="fa-regular fa-copyright"></i>. Made with<i class="fa-sharp fa-regular fa-heart"></i></i></p>
+
+   </div>
+
+   <script>
+
+     var tablinks = document.getElementByClassName("tab-links");
+     var tabcontents = document.getElementByClassName("tab-contents");
+        for (let i = 0; i <tablinks.lenght; i++){
+           tablinks[i].addEventListener('click,',(event)=> {
+              resetTabs();
+              event.target.classList.add('active-link');
+              document.getElementById(tabname).classList.add("active-tab");
+           })
+
+        
+     function resetTabs(){
+        for(let t = 0; t < tablinks.lenght; t++ ){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+   </script>
+
+  </body>
+
+</html>
